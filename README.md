@@ -1,117 +1,64 @@
-# iHatePDF — Offline & Privacy-First PDF Toolkit
+# 📦 iHatePDF — Offline & Privacy-First PDF Toolkit
 
-iHatePDF is a client-side, privacy-focused alternative to online PDF tools.  
-It replicates the core features of iLovePDF — but no files are ever uploaded to a server. All PDF processing happens locally in the user’s browser using WebAssembly and JavaScript, so the app also works fully offline after loading.
+A fully client-side PDF toolkit — works 100% offline, keeps files on your device, and processes everything locally using WebAssembly + JavaScript.
 
-------------------------------------------------------------
+————————————————————
 
-🚀 Key Highlights
+## 🚀 Highlights
+• Works offline (PWA)  
+• No file uploads — privacy-first  
+• Fast WebAssembly + Web Workers  
+• Lightweight iLovePDF-style UI  
 
-• 100% offline — works without internet  
-• Client-side only — no backend or server storage  
-• Privacy-first — files never leave the device  
-• Fast processing using WebAssembly & workers  
-• Lightweight UI inspired by iLovePDF  
-• Installable as a Progressive Web App (PWA)
+“All processing happens locally — nothing is uploaded or stored on any server.”
 
-“iHatePDF processes your files locally on your device.  
-No files are uploaded or stored on any server.”
+————————————————————
 
-------------------------------------------------------------
+## 🧩 Tools
+Merge • Split • Compress • Extract • Remove • Reorder • Rotate  
+Watermark • Password (add/remove) • Metadata Editor  
+Images → PDF • PDF → Images (JPG/PNG)
 
-🧩 Available Tools & Features
+————————————————————
 
-• Merge PDFs  
-• Split PDF (by range / pages)  
-• Compress PDF  
-• Extract pages  
-• Remove pages  
-• Reorder pages  
-• Rotate pages  
-• Add watermark (text / image)  
-• Add / Remove password (local encryption)  
-• Edit metadata  
-• Images → PDF  
-• PDF → Images (JPG / PNG)
+## 🛠 Tech Stack
+React • Tailwind • pdf.js • pdf-lib • WebAssembly • Web Workers • PWA
 
-Modular architecture allows adding more tools later.
+————————————————————
 
-------------------------------------------------------------
+## 💻 Development Setup
+Clone repo → install → run → build
 
-🛠 Technology Stack
+git clone https://github.com/your-repo/ihatepdf  
+npm install  
+npm run dev  
+npm run build  
 
-• React.js, Tailwind CSS  
-• WebAssembly (WASM) utilities  
-• pdf.js / pdf-lib  
-• Web Workers for heavy tasks  
-• PWA + Service Worker for offline mode
+Build output can be hosted on any static hosting platform.
 
-No server, no database, no cloud uploads.
+————————————————————
 
-------------------------------------------------------------
+## 💾 Offline Mode (PWA)
+• Assets cached locally  
+• Installable as an app  
+• Continues working offline
 
+————————————————————
 
+## 🔐 Privacy Policy
+No uploads • No tracking • No external APIs
 
-Each tool lives in its own independent module.
+————————————————————
 
-------------------------------------------------------------
+## 🧭 Roadmap
+OCR • Annotations • Page Numbers • Signature Tool • Batch Processing
 
-🧑‍💻 Development Setup
+————————————————————
 
-1) Clone repository  
-   git clone https://github.com/your-repo/ihatepdf
+## 📝 License
+Open-source — use & modify responsibly.
 
-2) Install dependencies  
-   npm install
+————————————————————
 
-3) Run locally  
-   npm run dev   (or npm start)
-
-4) Build static export  
-   npm run build
-
-Output can be hosted on any static hosting platform.
-
-------------------------------------------------------------
-
-💾 Offline Mode (PWA)
-
-• Required assets cached locally  
-• Can be installed to desktop/mobile  
-• Tools continue working offline
-
-Once loaded, internet connection is not required.
-
-------------------------------------------------------------
-
-🔐 Privacy & Security Policy
-
-• No file upload  
-• No tracking  
-• No external APIs  
-• All processing stays inside browser
-
-Suitable for confidential & sensitive documents.
-
-------------------------------------------------------------
-
-🧭 Roadmap (Planned Upgrades)
-
-• Offline OCR text extraction  
-• PDF annotations  
-• Page numbering  
-• Local signature tool  
-• Batch processing
-
-------------------------------------------------------------
-
-📝 License
-
-Open-source — free to use and modify.  
-Use responsibly and respect document privacy.
-
-------------------------------------------------------------
-
-❤️ Credits
-
-Inspired by iLovePDF — recreated as a local-only, privacy-friendly alternative for users who don’t want to upload their PDFs to servers.
+## ❤️ Credits
+Inspired by iLovePDF — recreated as a local-only, privacy-friendly alternative.
