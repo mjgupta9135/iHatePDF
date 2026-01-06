@@ -26,18 +26,6 @@ React • Tailwind • pdf.js • pdf-lib • WebAssembly • Web Workers • PW
 
 ————————————————————
 
-## 💻 Development Setup
-Clone repo → install → run → build
-
-git clone https://github.com/your-repo/ihatepdf  
-npm install  
-npm run dev  
-npm run build  
-
-Build output can be hosted on any static hosting platform.
-
-————————————————————
-
 ## 💾 Offline Mode (PWA)
 • Assets cached locally  
 • Installable as an app  
